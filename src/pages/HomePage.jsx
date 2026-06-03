@@ -171,7 +171,7 @@ const HomePage = () => {
       {/* <Navbar/> */}
       <nav className={scrolled ? 'scrolled' : ''}>
         <a className="nav-logo" href="#" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
-          <img src={logo}/></><span>আম</span>রস
+          <img src={logo}/><span>আম</span>রস
         </a>
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
           <li><button onClick={() => scrollToSection('products')}>Shop</button></li>
