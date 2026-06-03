@@ -6,6 +6,7 @@ import { auth } from "../firebase";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 import { doc, getDoc, setDoc, updateDoc, arrayUnion, arrayRemove } from 'firebase/firestore';
+import logo from ".../public/fevicon.png";
 
 
 // Product Data
@@ -170,7 +171,7 @@ const HomePage = () => {
       {/* <Navbar/> */}
       <nav className={scrolled ? 'scrolled' : ''}>
         <a className="nav-logo" href="#" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
-          <span>আম</span>রস
+          <img src={logo}/></><span>আম</span>রস
         </a>
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
           <li><button onClick={() => scrollToSection('products')}>Shop</button></li>
