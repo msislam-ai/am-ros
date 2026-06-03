@@ -15,7 +15,7 @@ function Signup() {
 
     try {
       await createUserWithEmailAndPassword(auth, email, password);
-      navigate("/dashboard");
+      navigate("/profile");
     } catch (error) {
       setMessage(error.message);
     }
