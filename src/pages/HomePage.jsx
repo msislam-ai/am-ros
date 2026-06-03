@@ -338,7 +338,7 @@ const HomePage = () => {
         <div className="footer-col"><h4>Company</h4><ul><li><a href="#">Our Story</a></li><li><a href="#">Our Orchards</a></li><li><a href="#">Blog</a></li><li><a href="#">Careers</a></li></ul></div>
         <div className="footer-col"><h4>Help</h4><ul><li><a href="#">Track Order</a></li><li><a href="#">FAQ</a></li><li><a href="#">Returns</a></li><li><a href="#">Contact Us</a></li></ul></div>
       </footer>
-      <div className="footer-bottom">© 2026 <Link to="/admin">আম রস </Link> · Made with 🥭 in Bangladesh · All rights reserved</div>
+      <div className="footer-bottom" >© 2026 <Link to="/admin" style={{ text-decoration: 'none',color: 'inherit' }}>আম রস </Link> · Made with 🥭 in Bangladesh · All rights reserved</div>
 
       {/* Cart Bubble */}
 
