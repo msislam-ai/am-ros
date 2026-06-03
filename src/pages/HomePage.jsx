@@ -6,7 +6,7 @@ import { auth } from "../firebase";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 import { doc, getDoc, setDoc, updateDoc, arrayUnion, arrayRemove } from 'firebase/firestore';
-import logo from ".../public/fevicon.png";
+import logo from "../assets/fevicon.png";
 
 
 // Product Data
