@@ -39,8 +39,8 @@ const CartPage = () => {
   });
 
   const paymentMethods = {
-    bkash: { label: 'bKash', num: '01712-345678', color: '#E2136E', emoji: '💗' },
-    nagad: { label: 'Nagad', num: '01887-654321', color: '#F4821F', emoji: '🟠' }
+    bkash: { label: 'bKash', num: '01331816792', color: '#E2136E', emoji: '💗' },
+    nagad: { label: 'Nagad', num: '01331816792', color: '#F4821F', emoji: '🟠' }
   };
 
   // Refs for shaking invalid fields
