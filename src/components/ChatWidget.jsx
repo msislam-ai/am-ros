@@ -476,7 +476,7 @@ export default function MangoChat() {
         /* Mobile */
         @media (max-width: 420px) {
           .mc-window { width: calc(100vw - 24px); right: 12px; bottom: 96px; height: 480px; }
-          .mc-fab { bottom: 20px; right: 16px; }
+          .mc-fab { bottom: 20px; left: 10px; }
         }
       `}</style>
 
