@@ -7,6 +7,7 @@ import HomePage from "./pages/HomePage";
 import CartPage from "./pages/CartPage";
 import MangoAdminDashboard from "./pages/Dashboard";
 import MyOrders from "./pages/Profile";
+import AdminChatPanel from "./pages/AdminChatPanel";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/profile" element={<MyOrders/>} />
+        <Route path="/admin/chat" element={<AdminChatPanel />} />
                 <Route
           path="/admin"
           element={
