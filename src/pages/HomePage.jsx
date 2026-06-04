@@ -6,6 +6,8 @@ import { auth } from "../firebase";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 import { doc, getDoc, setDoc, updateDoc, arrayUnion, arrayRemove } from 'firebase/firestore';
+import {MangoChat} from "../components/ChatWidget";
+
 
 
 
@@ -166,8 +168,10 @@ const HomePage = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
+    
     <div className="app">
       {/* Navigation */}
+      <MangoChat />
       {/* <Navbar/> */}
       <nav className={scrolled ? 'scrolled' : ''}>
         <a className="nav-logo" href="#" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
