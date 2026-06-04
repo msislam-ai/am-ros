@@ -309,7 +309,7 @@ export default function MangoAdminDashboard() {
             font-size: 18px !important;
           }
         }
-
+        .chat-btn{display:inline-block;padding:10px 16px;background:#25D366;color:#fff;text-decoration:none;border-radius:8px;font-weight:600;}
         /* Stats grid responsive */
         @media (max-width: 1000px) {
           .stats-grid {
@@ -754,7 +754,7 @@ export default function MangoAdminDashboard() {
               </div>
             </div>
           )}
-
+          <Link to="/admin/chat" className="chat-btn">💬 Chat</Link>
         </main>
       </div>
 
