@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { db } from "../firebase"; // adjust path to your firebase config file
 import { collection, getDocs, addDoc, updateDoc, deleteDoc, doc, onSnapshot, query, orderBy } from "firebase/firestore";
-import { link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 // ─── Seed Data ────────────────────────────────────────────────────────────────
 const SEED_PRODUCTS = [
