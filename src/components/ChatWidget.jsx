@@ -175,7 +175,7 @@ export default function MangoChat() {
         /* ── FAB ── */
         .mc-fab {
           position: fixed;
-          bottom: 28px;
+          bottom: 110px;
           right: 28px;
           width: 62px;
           height: 62px;
